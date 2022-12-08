@@ -1,0 +1,12 @@
+h1{
+    border: 2px solid red;
+    
+
+/* Through experimentation found that things like 
+margin and padding require px to work! */
+
+    /* spacing between other components */
+    margin: 10px;
+
+    padding: 10px;
+}

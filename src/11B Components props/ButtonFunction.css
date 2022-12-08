@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Lesson learnt: 
+
+another css file defined .App
+prior and when this file was empty,
+it was taking arguments from previous
+definitions 
+
+However, those arguments were overwritten
+when defined in this .css file
+*/

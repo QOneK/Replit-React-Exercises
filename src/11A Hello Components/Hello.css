@@ -1,0 +1,9 @@
+/* Center all elements in App.jsx */
+.App {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+}

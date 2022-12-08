@@ -1,0 +1,20 @@
+.button {
+    border-radius: 5px;
+    border: 1px solid #000;
+    /* gradient color */
+    background: linear-gradient(to left, rgb(119, 17, 149) 0%, rgb(210, 53, 238) 100%);
+    /* make button big */
+    font-size: 1.5em;
+}
+
+/* change on hover */
+.button:hover {
+    background: linear-gradient(to left, rgb(78, 10, 99) 0%, rgb(135, 34, 153) 100%);
+}
+
+/* change on click */
+.button:active {
+    background: linear-gradient(to left, rgb(50, 7, 63) 0%, rgb(54, 13, 61)100%);
+    /* make button smaller */
+    font-size: 1.4em;
+}

@@ -1,0 +1,19 @@
+.button {
+
+/* with CSS files, ALWAYS remember to add semi colon at the end of line (;) */
+
+    /* with certain extensions, color can be selected by clicking on the color box */
+    background-color: green;
+
+    border: none;
+
+    /* refers to the color of text */
+    color: white;
+
+    /* first parameter: y axis
+    second parameter: x axis */
+    /* Padding => resizes the button */
+    padding: 15px 32px;
+
+    font-size: 32px;
+}
